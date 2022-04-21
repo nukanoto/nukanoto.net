@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 768px;
+}
+
+@media (max-width: 768px) {
+  main {
+    width: 100%;
+  }
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
