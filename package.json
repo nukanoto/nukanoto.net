@@ -1,0 +1,17 @@
+{
+  "name": "nukanoto.net",
+  "version": "1.0.0",
+  "author": "nukanoto",
+  "license": "MIT",
+  "packageManager": "pnpm@10.9.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^5.8.0"
+  }
+}
