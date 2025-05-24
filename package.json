@@ -9,9 +9,14 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "check": "biome lint",
+    "check:w": "biome lint --write"
   },
   "dependencies": {
     "astro": "^5.8.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4"
   }
 }
