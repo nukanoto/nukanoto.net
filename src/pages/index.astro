@@ -1,15 +1,18 @@
 ---
-import './src/styles/global.css'; // use tailwindcss
-
-// Astroにようこそ！この3つのハイフンのコードフェンスの中にあるものは、
-// 「コンポーネントのフロントマター」です。ブラウザで実行されることはありません。
-console.log("ここはブラウザではなく、ターミナルで実行されます！");
+import "./src/styles/global.css"; // use tailwindcss
+import { Content as IndexContent } from "../components/index-ja.md";
 ---
 
-<!-- 以下は「コンポーネントテンプレート」です。単なるHTMLですが、
-    素晴らしいテンプレートを作成するための魔法が散りばめられています。 -->
-<html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>nukanoto</title>
+    </head>
     <body>
-        <h1 class="text-3xl font-bold text-yellow-500">Hello, World!</h1>
+        <article class="prose lg:prose-xl">
+            <IndexContent />
+        </article>
     </body>
 </html>
