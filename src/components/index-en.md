@@ -5,16 +5,16 @@
 
 ## Affiliation
 
-- [University of Tsukuba](https://www.tsukuba.ac.jp/), School of Comprehensive Studies (2025/04 - Present)
+- [University of Tsukuba](https://www.tsukuba.ac.jp/en/), School of Comprehensive Studies (2025/04 - Present)
 
 ## Activities
 
-- [National Security Camp 2022 Online](https://www.ipa.go.jp/jinzai/security-camp/2022/zenkoku/index.html), L4 (2022/08)
+- [National Security Camp](https://www.ipa.go.jp/en/about/it-talents/security-camp.html) 2022 Online, L4 (2022/08)
 
 ## Certifications
 
-- [Applied Information Technology Engineer Examination (AP)](https://www.ipa.go.jp/shiken/kubun/ap.html) (2023/12)
-- EIKEN Test in Practical English Proficiency, Grade Pre-1 (2024/02)
+- [Applied Information Technology Engineer Examination (AP)](https://www.ipa.go.jp/en/about/it-talents/itee.html) (2023/12)
+- [EIKEN Test in Practical English Proficiency, Grade Pre-1](https://www.eiken.or.jp/eiken/en/grades/grade_p1/) (2024/02)
 
 ## Links
 
