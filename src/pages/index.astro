@@ -1,31 +1,8 @@
 ---
-import "../styles/global.css"; // use tailwindcss
-import { Content as IndexContent } from "../components/index-ja.md";
+import { Content as IndexJaContent } from "../components/index-ja.md";
+import Layout from "../layouts/Layout.astro";
 ---
 
-<html lang="ja">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width" />
-        <meta name="generator" content={Astro.generator} />
-        <title>nukanoto</title>
-    </head>
-    <body class="p-12">
-        <div class="mb-2">
-            <img
-                src="/icon.png"
-                alt="my icon"
-                class="mx-auto my-4 w-32 h-32 rounded-full"
-            />
-            <p class="text-center text-2xl font-bold">nukanoto</p>
-        </div>
-        <article
-            class="prose lg:prose-xl mx-auto p-4 max-w-2xl
-            prose-headings:text-xl prose-headings:pl-4 prose-headings:py-2 prose-headings:mb-3 prose-headings:border-slate-900 prose-headings:border-l-4 prose-headings:my-6
-            prose-code:bg-slate-200 prose-code:rounded-md
-            prose-li:my-1"
-        >
-            <IndexContent />
-        </article>
-    </body>
-</html>
+<Layout lang="ja">
+    <IndexJaContent />
+</Layout>
