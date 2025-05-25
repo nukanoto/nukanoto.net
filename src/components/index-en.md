@@ -5,7 +5,7 @@
 
 ## Affiliation
 
-- [University of Tsukuba](https://www.tsukuba.ac.jp/), School of Comprehensive Studies, Class 3 (2025/04 - Present)
+- [University of Tsukuba](https://www.tsukuba.ac.jp/), School of Comprehensive Studies (2025/04 - Present)
 
 ## Activities
 
