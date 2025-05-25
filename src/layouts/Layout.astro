@@ -7,6 +7,16 @@ interface Props {
 }
 
 const props: Props = Astro.props;
+
+// メタデータを変数で一括設定
+const siteTitle = "nukanoto";
+const siteDescription =
+    props.lang === "ja"
+        ? "nukanoto のホームページ"
+        : "nukanoto's homepage";
+const siteUrl = "https://nukanoto.net";
+const siteImage = `${siteUrl}/icon.png`;
+const canonicalUrl = `${siteUrl}${props.lang === "en" ? "/en" : ""}`;
 ---
 
 <html lang={props.lang}>
@@ -14,7 +24,29 @@ const props: Props = Astro.props;
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width" />
         <meta name="generator" content={Astro.generator} />
-        <title>nukanoto</title>
+        <title>{siteTitle}</title>
+
+        <!-- OGP メタタグ -->
+        <meta property="og:title" content={siteTitle} />
+        <meta property="og:description" content={siteDescription} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={siteUrl} />
+        <meta property="og:image" content={siteImage} />
+        <meta property="og:site_name" content={siteTitle} />
+        <meta
+            property="og:locale"
+            content={props.lang === "ja" ? "ja_JP" : "en_US"}
+        />
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content={siteTitle} />
+        <meta name="twitter:description" content={siteDescription} />
+        <meta name="twitter:image" content={siteImage} />
+
+        <!-- その他のメタタグ -->
+        <meta name="description" content={siteDescription} />
+        <link rel="canonical" href={canonicalUrl} />
     </head>
     <body class="p-12">
         <div class="flex justify-end mb-4">
