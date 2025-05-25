@@ -1,0 +1,47 @@
+---
+interface Props {
+    isJaPage: boolean;
+}
+
+const props: Props = Astro.props;
+
+const defaultClassName =
+    "px-3 py-1 text-sm font-medium rounded-md transition-colors cursor-pointer";
+const activatedClassName = "bg-gray-900 text-white";
+const deactivatedClassName = "text-gray-700 hover:bg-gray-100";
+---
+
+<script>
+    const jaBtn = document.getElementById("ja-btn");
+    const enBtn = document.getElementById("en-btn");
+
+    jaBtn?.addEventListener("click", () => {
+        window.location.href = "/"; // Move to the Japanese page
+    });
+
+    enBtn?.addEventListener("click", () => {
+        window.location.href = "/en/"; // Move to the English page
+    });
+</script>
+
+<!--言語切り替えボタン -->
+<div class="bg-white rounded-lg shadow-sm border border-gray-200 p-1 flex">
+    <button
+        id="ja-btn"
+        aria-label="日本語ページに切り替え"
+        class={props.isJaPage
+            ? `${defaultClassName} ${activatedClassName}`
+            : `${defaultClassName} ${deactivatedClassName}`}
+    >
+        日本語
+    </button>
+    <button
+        id="en-btn"
+        aria-label="Switch to English page"
+        class={props.isJaPage
+            ? `${defaultClassName} ${deactivatedClassName}`
+            : `${defaultClassName} ${activatedClassName}`}
+    >
+        English
+    </button>
+</div>
