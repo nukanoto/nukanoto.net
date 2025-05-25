@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "author": "nukanoto",
   "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
   "packageManager": "pnpm@10.9.0",
   "main": "index.js",
   "scripts": {
