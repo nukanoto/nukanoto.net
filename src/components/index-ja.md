@@ -9,6 +9,7 @@
 
 ## 活動
 
+- [SecHack365](https://sechack365.nict.go.jp/) 研究駆動コース (2025/06 - 現在)
 - [科学の甲子園](https://koushien.jst.go.jp/koushien/index.html) 第13回 (2024/03)
 - [セキュリティ・キャンプ全国大会2022 オンライン](https://www.ipa.go.jp/jinzai/security-camp/2022/zenkoku/index.html), L4 (2022/08)
 

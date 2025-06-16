@@ -9,6 +9,8 @@
 
 ## Activities
 
+- [SecHack365](https://sechack365.nict.go.jp/) Research-Driven Course (2025/06 - Present)
+- [Kagaku no Koushien](https://koushien.jst.go.jp/koushien/index.html) 13th (2024/03)
 - [National Security Camp](https://www.ipa.go.jp/en/about/it-talents/security-camp.html) 2022 Online, L4 (2022/08)
 
 ## Certifications
