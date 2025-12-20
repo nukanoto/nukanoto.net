@@ -14,7 +14,7 @@
   - 電装班チーフ (2025/10 - 現在)
   - 機体班, 電装班 (2025/05 - 現在)
 - [学園祭実行委員会 情報メディアシステム局](https://sohosai.com/) (2025/06 - 現在)
-- [科学の甲子園](https://koushien.jst.go.jp/koushien/index.html) 第13回 (2024/03)
+- [科学の甲子園](https://koushien.jst.go.jp/koushien/index.html) 第13回 全国大会 (2024/03)
 - [セキュリティ・キャンプ全国大会2022 オンライン](https://www.ipa.go.jp/jinzai/security-camp/2022/zenkoku/index.html), L4 (2022/08)
 
 ## 資格
