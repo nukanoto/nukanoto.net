@@ -8,7 +8,7 @@
 ## Affiliation
 
 - [University of Tsukuba](https://www.tsukuba.ac.jp/en/)
-  - College of Information Science (2026/04 - Present)
+  - [College of Information Science](https://www.coins.tsukuba.ac.jp/) (2026/04 - Present)
   - School of Comprehensive Studies (2025/04 - 2026/03)
 
 ## Activities
